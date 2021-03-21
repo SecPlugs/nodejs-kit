@@ -1,6 +1,12 @@
 [
-    {
-    "name" : "NodeJS Sample Kit",
-    "description" : "A set of examples and tools written in NodeJS. A great place to start integration…"
-    }
+        {
+                "name" : "nodejs_kit",
+                "type" : "generic",
+                "title" : "Node.js Sample Kit",
+                "description" : "A set of examples and tools written in NodeJS. A great place to start integration.",
+                "summary_html" : "@.secplugs/plugins/nodejs_kit/summary.html",
+                "detail_html" : "@.secplugs/plugins/nodejs_kit/detail.html",
+                "small_image" : "@.secplugs/plugins/nodejs_kit/small_image.png",
+                "normal_image" : "@.secplugs/plugins/nodejs_kit/normal_image.png"
+        }
 ]
