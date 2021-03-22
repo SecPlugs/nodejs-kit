@@ -3,6 +3,7 @@
                 "name" : "nodejs_kit",
                 "type" : "generic",
                 "title" : "Node.js Sample Kit",
+                "created_by" : "TheStig@secplugs.com",
                 "description" : "A set of examples and tools written in NodeJS. A great place to start integration.",
                 "summary_html" : "@.secplugs/plugins/nodejs_kit/summary.html",
                 "detail_html" : "@.secplugs/plugins/nodejs_kit/detail.html",
