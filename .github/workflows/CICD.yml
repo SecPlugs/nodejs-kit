@@ -16,7 +16,11 @@ jobs:
 
       - name: Pull code
         uses: actions/checkout@v2
-
+        
+      - name: Install Dependencies
+        run: |
+          ./build/installDependencies.sh
+          
       - name: Run Tests
         run: |
           ./build/runTests.sh
