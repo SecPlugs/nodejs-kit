@@ -1,4 +1,4 @@
-![CICD](https://github.com/SecPlugs/nodejs-kit/workflows/BuildTestDeploy/badge.svg)
+![CICD](https://github.com/SecPlugs/nodejs-kit/workflows/CICD/badge.svg)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ## Summary
 {% include_relative _summary.md %}
