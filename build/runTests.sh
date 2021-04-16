@@ -19,4 +19,6 @@ function check_return_code_not_ok {
     fi
 }
 
+node ./scripts/WebScan.js
+check_return_code_ok $?
 echo 'tests pass'
