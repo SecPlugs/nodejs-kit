@@ -19,11 +19,11 @@ jobs:
         with:
           node-version: '15.x'
           
-      - name: Run Tests
+      - name: Install Depedencies
         run: |
           npm install
-          npm audit fix
+          npm audit fix --force
           
       - name: Run Tests
         run: |
-          ./build/runTests.sh
+          npm test
