@@ -18,7 +18,12 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '15.x'
-     
+          
+      - name: Run Tests
+        run: |
+          npm install
+          npm audit fix
+          
       - name: Run Tests
         run: |
           ./build/runTests.sh
