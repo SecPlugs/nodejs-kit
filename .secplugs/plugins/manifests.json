@@ -2,12 +2,12 @@
   {
     "name":"nodejs_kit",
     "type":"generic",
-    "title":"Node.js Sample Kit",
+    "title":"Node.js Kit",
     "created_by":"TheStig@secplugs.com",
-    "description":"A set of examples and tools written in NodeJS. A great place to start integration.",
+    "description":"A set of scripts and tools written in NodeJS. A great place to start integration.",
     "content":{
-      "summary":"@.secplugs/plugins/nodejs_kit/summary.html",
-      "detail":"@.secplugs/plugins/nodejs_kit/detail.html"
+      "summary":"https://secplugs.github.io/nodejs-kit/docs/summary.html",
+      "detail":"https://secplugs.github.io/nodejs-kit/docs/detail.html"
     },
     "images":{
       "small":"@.secplugs/plugins/nodejs_kit/small_image.png",
@@ -17,8 +17,8 @@
       ]
     },
     "links":{
-      "download":"https://github.com/SecPlugs/nodejs-kit/wiki/Downloads",
-      "github":"https://github.com/SecPlugs/nodejs-kit"
+      "github":"https://github.com/SecPlugs/nodejs-kit",
+      "more_info" : "https://secplugs.github.io/nodejs-kit/docs"
     }
   }
 ]
