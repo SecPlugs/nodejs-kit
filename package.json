@@ -1,0 +1,28 @@
+{
+  "name": "secplugs-nodejs-kit",
+  "version": "1.0.0",
+  "description": "Secplugs NodeJS Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "./build/runTests.sh"
+  },
+  "dependencies": {
+    "node-fetch": "^1.0.0",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SecPlugs/nodejs-kit.git"
+  },
+  "keywords": [
+    "Secplugs",
+    "scan",
+    "anti-malware",
+    "security"
+  ],
+  "author": "TheStig@secplugs.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/SecPlugs/nodejs-kit/issues"
+  },
+  "homepage": "https://secplugs.github.io/nodejs-kit/docs"
+}
