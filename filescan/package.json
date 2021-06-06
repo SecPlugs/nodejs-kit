@@ -1,0 +1,28 @@
+{
+  "name": "@secplugs/filescan",
+  "version": "0.0.1",
+  "description": "The NodeJS client for the Secplugs file analysis service",
+  "main": "filescan.js",
+  "scripts": {
+    "test": "echo 'Warn: No tests specified'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SecPlugs/nodejs-kit.git"
+  },
+  "keywords": [
+    "secplugs-plugins",
+    "secplugs-toolkit"
+  ],
+  "author": "TheStigAtSecplugs",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/SecPlugs/nodejs-kit/issues"
+  },
+  "homepage": "https://github.com/SecPlugs/nodejs-kit#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2",
+    "sha256-file": "^1.0.0"
+  }
+}
