@@ -11,7 +11,7 @@ async function testScan() {
 }
 
 
-//testScan(fileToScan);
+testScan(fileToScan);
 
 secplugs.quickScan(fileToScan)
     .catch(err => {
@@ -32,7 +32,7 @@ secplugs.quickScan(fileToScan)
     })
     .then(res => { if(res) {console.log(res.score);}});
         
-//secplugs.scanFile(fileToScan).then(res => console.log(res.score));
+secplugs.scanFile(fileToScan).then(res => console.log(res.score));
 
-//secplugs.isClean(fileToScan).then(res => console.log(res));
+secplugs.isClean(fileToScan).then(res => console.log(res));
 
