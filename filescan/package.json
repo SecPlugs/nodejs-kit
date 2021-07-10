@@ -11,8 +11,10 @@
     "url": "git+https://github.com/SecPlugs/nodejs-kit.git"
   },
   "keywords": [
-    "secplugs-plugins",
-    "secplugs-toolkit"
+    "Secplugs",
+    "scan",
+    "anti-malware",
+    "security"
   ],
   "author": "TheStigAtSecplugs",
   "license": "Apache-2.0",
