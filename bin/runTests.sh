@@ -21,4 +21,9 @@ function check_return_code_not_ok {
 
 node ./index.js
 check_return_code_ok $?
+
+pushd . && cd filescan && npm install && popd
+node scripts/test.js scripts/test.js
+check_return_code_ok $?
+
 echo 'tests pass'
