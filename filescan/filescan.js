@@ -63,14 +63,14 @@ class Secplugs {
             var val = formFields[key];
             form.append(key, val);
         });
-        form.append("file", fs.readFileSync(filePath));//path.basename(filePath));
+        form.append("file", fs.readFileSync(filePath));
         let response = await fetch(url, {method: "POST", body: form});
         return response.ok;
     }
 
     async quickScan(filePath = "") {
         if (filePath.length > 0) {
-            this.scanContext['filename'] = path.basename(filePath);
+            this.scanContext['file_name'] = path.basename(filePath);
             await this.computeSha256Sum(filePath);
         } else if (this.fileName.length > 0) {
             this.scanContext['filename'] = this.fileName;
