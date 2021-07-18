@@ -4,7 +4,7 @@
   "description": "The NodeJS client for the Secplugs file analysis service",
   "main": "filescan.js",
   "scripts": {
-    "test": "echo 'Warn: No tests specified'"
+    "test": "mocha filescan.test.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,8 @@
     "node-fetch": "^2.6.1",
     "request": "^2.88.2",
     "sha256-file": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.2"
   }
 }
