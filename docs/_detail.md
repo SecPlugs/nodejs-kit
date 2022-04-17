@@ -7,7 +7,8 @@ The kit has a fully function URL submission example that can be used from the co
 
 #### What are the features?
 
-- __Scan URLs__ - Use the tool to scan URLs. 
+- __Scan Files__ - Use the tool to scan Files. 
+- __Scan URLs__ -  Use the tool to scan URLs. 
 - __Re-analyse sites__ - From the Secplugs portal, re analyse sites retrospetively by resubmitting them.
 - __Run Reports__ - From the Secplugs portal, view reports
 - __Secplugs Portal__ - With a registered API key you can access all the core Secplugs features via the portal.
