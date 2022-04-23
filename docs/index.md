@@ -3,11 +3,14 @@ layout: none
 ---
 
 ## About
-{% include_relative _detail.md %}
+Ready to use samples written in NodeJS makes the Secplugs platform really easy to use from client or server side Java Script.
+
+The tool is open source so you can modify as you wish.
+Also see [Node,js Kit Listing](/plugin-list/plugin-secplugs-nodejs-kit)
 
 ## Quick Start
 Obtain the node module by simply running the command below at the root of your node project (i.e. the directory that has `package.json` file)
-```console
+```bash
 npm i @secplugs/filescan
 ```
 
@@ -15,14 +18,33 @@ This will now add the secplugs filescan node module to the package.json
 
 ## Usage
 Here, a very simple example of how to integrate file scan with your node code base is provided
-{% include_relative usage.md %}
 
-To avail yourself of the complete set of vendors and features provided by secplugs, and to have complete privacy
-for the scans you submit, please create an accout at secplugs.com, login to the portal and create a new API key
-[as shown in this how to](https://secplugs.github.io/docs/HowToRegisterAnAPIKey). Please note that this API key is confidential.
+```nodejs
+let secplugs = require('@secplugs/filescan').getInstance()
 
-After registering with secplugs.com and creating an API key, the only change to the code sample about would be
-{% include_relative registered_usage.md %}
+async function asyncQuickTest(fileToScan) {
+    secplugs.isClean(fileToScan)
+        .then(res => console.log(res));
+}
+
+async function simpleTestScan() {
+    let result = await secplugs.isClean("./package.json")
+    console.log(result);
+}
+
+let fileToScan = process.argv.slice(2)[0];
+simpleTestScan();
+asyncQuickTest(fileToScan);
+```
+
+To use additional features and the privacy of your own account, after registering with {brand-name}, sign in with your username and [create an API key](docs?doc=docs/HowTo/CreateKey) 
+
+After creating a key, the only change to the code sample above would be
+
+```nodejs
+let secplugs = require('@secplugs/filescan').getInstance("xgSg33brMe3oIh872Azge8ZzCS170m0ja6r0LNJo")
+```
+
 
 Everything else remains the same.
 
