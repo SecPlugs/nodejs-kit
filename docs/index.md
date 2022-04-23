@@ -19,7 +19,7 @@ This will now add the secplugs filescan node module to the package.json
 ## Usage
 Here, a very simple example of how to integrate file scan with your node code base is provided
 
-```nodejs
+```javascript
 let secplugs = require('@secplugs/filescan').getInstance()
 
 async function asyncQuickTest(fileToScan) {
@@ -41,7 +41,7 @@ To use additional features and the privacy of your own account, after registerin
 
 After creating a key, the only change to the code sample above would be
 
-```nodejs
+```javascript
 let secplugs = require('@secplugs/filescan').getInstance("xgSg33brMe3oIh872Azge8ZzCS170m0ja6r0LNJo")
 ```
 
