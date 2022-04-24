@@ -8,8 +8,8 @@ Ready to use samples written in Node.js makes the {brand-name} platform really e
 The tool is open source so you can modify as you wish.
 Also see [Node,js Kit Listing](/plugin-list/plugin-secplugs-nodejs-kit)
 
-## Quick Start
-Obtain the node module by simply running the command below at the root of your node project (i.e. the directory that has `package.json` file)
+## Installation
+Get the node module by running the command below at the root of your node project (i.e. the directory that has `package.json` file)
 ```bash
 npm i @secplugs/filescan
 ```
@@ -17,7 +17,10 @@ npm i @secplugs/filescan
 This will now add the secplugs filescan node module to the package.json
 
 ## Usage
-Here, a very simple example of how to integrate file scan with your node code base is provided
+Usage pattern is to get an instance and then uses its methods to scan objects.
+
+## Scan A File
+Here, a very simple example of how to scan a file
 
 ```javascript
 let secplugs = require('@secplugs/filescan').getInstance()
@@ -36,7 +39,7 @@ let fileToScan = process.argv.slice(2)[0];
 simpleTestScan();
 asyncQuickTest(fileToScan);
 ```
-
+### Use Your Own API Key
 To use additional features and the privacy of your own account, after registering with {brand-name}, sign in with your username and [create an API key](docs?doc=docs/HowTo/CreateKey) 
 
 After creating a key, the only change to the code sample above would be
@@ -45,9 +48,7 @@ After creating a key, the only change to the code sample above would be
 let secplugs = require('@secplugs/filescan').getInstance("xgSg33brMe3oIh872Azge8ZzCS170m0ja6r0LNJo")
 ```
 
-
 Everything else remains the same.
-
 
 ## Contact
 Having trouble? [Contact {brand-name} ](https://{brand-root-domain}/contacts)

@@ -6,14 +6,7 @@
 A set of samples and tools in Node JS ready. A good kick start for NodeJS based projects
 
 ## Usage & More Info
-See the [NodeJS Kit GitHub Pages](https://docs.secplugs.com/nodejs-kit/docs) for usage and other information
+See the [NodeJS Docs](https://scancloud.io/index.php/docs?plugin=plugin-secplugs-nodejs-kit) for usage and other information
 
-## Repository Layout
-This repository is laid out as follows..
 
-| Folder        | Description |
-| ------------- |:-------------| 
-| .secplugs     | contains the meta data to import into the Secplugs portal |
-| scripts       | core scripts that use the Secplugs platform      |
-| build         | build, package and publish scripts  |
 
