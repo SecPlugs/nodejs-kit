@@ -45,7 +45,7 @@ To use additional features and the privacy of your own account, after registerin
 After creating a key, the only change to the code sample above would be
 
 ```javascript
-let secplugs = require('@secplugs/filescan').getInstance("xgSg33brMe3oIh872Azge8ZzCS170m0ja6r0LNJo")
+let secplugs = require('@secplugs/filescan').getInstance("your-api-key")
 ```
 
 Everything else remains the same.
